@@ -1,0 +1,62 @@
+#nav, a {
+    padding: 10px;
+    word-spacing: 100%;
+}
+h1 {
+    font-family: Arial;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#miata, #honda {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px black solid;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(105, 165, 108);
+}
+li {
+    float: left;
+}
+#search {
+    float: right;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#search {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #111111;
+}
+#name {
+    font-family: Arial;
+    font-size: 120%;
+}
+#price {
+    color: red;
+}
+footer {
+    margin-top: 30px;
+}
